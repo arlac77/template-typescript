@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "lint:tsc": "tsc --allowJs --checkJs --noEmit -t es2022 {{javascript.source}}"
+    "lint:tsc": "tsc --allowJs --checkJs --noEmit -t es2022 ./src/*.mjs"
   },
   "devDependencies": {
     "typescript": "next"
