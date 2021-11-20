@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "lint": "npm run lint:tsc",
     "lint:tsc": "tsc --allowJs --checkJs --noEmit -t es2022 ./src/*.mjs"
   },
   "devDependencies": {
