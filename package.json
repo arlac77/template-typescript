@@ -10,7 +10,8 @@
       "arlac77/template-javascript"
     ],
     "usedBy": [
-      "arlac77/content-entry"
+      "arlac77/content-entry",
+      "arlac77/content-entry-filesystem"
     ]
   }
 }
