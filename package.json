@@ -3,8 +3,14 @@
     "lint:tsc": "tsc --allowJs --checkJs --noEmit -t es2022 ./src/*.mjs"
   },
   "devDependencies": {
-    "typescript": "next"
+    "typescript": "^4.6.0-dev.20211120"
   },
   "template": {
+    "inheritFrom": [
+      "arlac77/template-javascript"
+    ],
+    "usedBy": [
+      "arlac77/content-entry"
+    ]
   }
 }
