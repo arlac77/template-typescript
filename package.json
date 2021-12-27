@@ -12,7 +12,8 @@
     ],
     "usedBy": [
       "arlac77/content-entry",
-      "arlac77/content-entry-filesystem"
+      "arlac77/content-entry-filesystem",
+      "arlac77/repository-provider"
     ]
   }
 }
