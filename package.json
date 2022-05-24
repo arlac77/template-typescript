@@ -1,10 +1,10 @@
 {
   "scripts": {
     "lint": "npm run lint:tsc",
-    "lint:tsc": "--overwrite-- tsc --allowJs --checkJs --noEmit -t es2022 ./src/*.mjs"
+    "lint:tsc": "--overwrite-- tsc --allowJs --checkJs --noEmit -t node16 ./src/*.mjs"
   },
   "devDependencies": {
-    "typescript": "^4.6.3"
+    "typescript": "^4.7.2"
   },
   "template": {
     "inheritFrom": [
