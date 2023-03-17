@@ -1,7 +1,7 @@
 {
   "scripts": {
     "lint": "npm run lint:tsc",
-    "lint:tsc": "--overwrite-- tsc --allowJs --checkJs --noEmit -t esnext -m esnext ./src/*.mjs"
+    "lint:tsc": "--overwrite-- tsc --allowJs --checkJs --noEmit -t esnext -m esnext --moduleResolution nodenext ./src/*.mjs"
   },
   "devDependencies": {
     "typescript": "^5.0.2"
