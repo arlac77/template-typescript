@@ -14,7 +14,8 @@
       "arlac77/content-entry",
       "arlac77/content-entry-filesystem",
       "arlac77/npm-pkgbuild",
-      "arlac77/repository-provider"
+      "arlac77/repository-provider",
+      "arlac77/uti"
     ]
   }
 }
