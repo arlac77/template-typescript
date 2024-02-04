@@ -16,6 +16,7 @@
       "arlac77/iterable-string-interceptor",
       "arlac77/key-value-transformer",
       "arlac77/matching-iterator",
+      "arlac77/multi-path-matcher",
       "arlac77/npm-pkgbuild",
       "arlac77/repository-provider",
       "arlac77/uti"
