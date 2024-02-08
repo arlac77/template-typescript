@@ -10,6 +10,22 @@
     "inheritFrom": [
       "arlac77/template-javascript"
     ],
+    "mergers": [
+      {
+        "type": "Readme",
+        "pattern": "README.md",
+        "options": {
+          "badges": [
+            {
+              "name": "Typed with TypeScript",
+              "icon": "https://flat.badgen.net/badge/icon/Typed?icon=typescript&label&labelColor=blue&color=555555",
+              "url": "https://typescriptlang.org",
+              "order": 0.11
+            }
+          ]
+        }
+      }
+    ],
     "usedBy": [
       "arlac77/content-entry",
       "arlac77/content-entry-filesystem",
