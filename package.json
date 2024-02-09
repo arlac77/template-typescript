@@ -35,6 +35,7 @@
       "arlac77/matching-iterator",
       "arlac77/multi-path-matcher",
       "arlac77/npm-pkgbuild",
+      "arlac77/remove-sensible-values",
       "arlac77/repository-provider",
       "arlac77/uti"
     ]
