@@ -42,7 +42,8 @@
       "arlac77/pacc",
       "arlac77/remove-sensible-values",
       "arlac77/repository-provider",
-      "arlac77/uti"
+      "arlac77/uti",
+      "k0nsti/browser-stream-tar"
     ]
   }
 }
