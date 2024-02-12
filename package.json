@@ -40,6 +40,7 @@
       "arlac77/npm-pkgbuild",
       "arlac77/one-time-execution-method",
       "arlac77/pacc",
+      "arlac77/reader-line-iterator",
       "arlac77/remove-sensible-values",
       "arlac77/repository-provider",
       "arlac77/uti",
