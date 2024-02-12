@@ -33,6 +33,7 @@
       "arlac77/aggregate-async-iterator",
       "arlac77/content-entry",
       "arlac77/content-entry-filesystem",
+      "arlac77/fetch-link-util",
       "arlac77/iterable-string-interceptor",
       "arlac77/key-value-transformer",
       "arlac77/loglevel-mixin",
