@@ -31,9 +31,12 @@
     "usedBy": [
       "Kronos-Integration/endpoint",
       "Kronos-Integration/interceptor",
+      "Kronos-Integration/service",
       "arlac77/aggregate-async-iterator",
       "arlac77/content-entry",
       "arlac77/content-entry-filesystem",
+      "arlac77/fetch-link-util",
+      "arlac77/hinted-tree-merger",
       "arlac77/iterable-string-interceptor",
       "arlac77/key-value-transformer",
       "arlac77/loglevel-mixin",
@@ -42,10 +45,14 @@
       "arlac77/npm-pkgbuild",
       "arlac77/one-time-execution-method",
       "arlac77/pacc",
+      "arlac77/reader-line-iterator",
       "arlac77/remove-sensible-values",
       "arlac77/repository-provider",
+      "arlac77/repository-provider-cli-support",
+      "arlac77/statetransition-mixin",
       "arlac77/uti",
-      "k0nsti/browser-stream-tar"
+      "k0nsti/browser-stream-tar",
+      "konsumation/konsum-db"
     ]
   }
 }
