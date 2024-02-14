@@ -1,6 +1,5 @@
 {
-  "exports": {
-  },
+  "exports": {},
   "scripts": {
     "lint": "npm run lint:tsc",
     "lint:tsc": "--overwrite-- tsc --allowJs --checkJs --noEmit -t esnext -m esnext --module nodenext --moduleResolution nodenext ./src**/*.mjs"
@@ -52,6 +51,7 @@
       "arlac77/statetransition-mixin",
       "arlac77/uti",
       "k0nsti/browser-stream-tar",
+      "k0nsti/browser-stream-util",
       "konsumation/konsum-db"
     ]
   }
