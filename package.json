@@ -51,6 +51,7 @@
       "arlac77/remove-sensible-values",
       "arlac77/repository-provider",
       "arlac77/repository-provider-cli-support",
+      "arlac77/repository-provider-test-support",
       "arlac77/statetransition-mixin",
       "arlac77/uti",
       "k0nsti/browser-stream-tar",
