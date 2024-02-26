@@ -44,6 +44,7 @@
       "arlac77/hinted-tree-merger",
       "arlac77/iterable-string-interceptor",
       "arlac77/key-value-transformer",
+      "arlac77/local-repository-provider",
       "arlac77/loglevel-mixin",
       "arlac77/matching-iterator",
       "arlac77/mock-repository-provider",
