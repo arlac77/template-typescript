@@ -62,7 +62,8 @@
       "arlac77/uti",
       "k0nsti/browser-stream-tar",
       "k0nsti/browser-stream-util",
-      "konsumation/konsum-db"
+      "konsumation/konsum-db",
+      "konsumation/konsum-postgres"
     ]
   }
 }
