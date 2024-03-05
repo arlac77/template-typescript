@@ -62,6 +62,7 @@
       "arlac77/repository-provider-cli-support",
       "arlac77/repository-provider-test-support",
       "arlac77/statetransition-mixin",
+      "arlac77/svelte-common",
       "arlac77/uti",
       "k0nsti/browser-stream-tar",
       "k0nsti/browser-stream-util",
