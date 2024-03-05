@@ -5,9 +5,8 @@
     }
   },
   "scripts": {
-    "prepare": "--overwrite-- tsc --allowJs --declaration --emitDeclarationOnly --declarationDir types -t esnext -m esnext --module nodenext --moduleResolution nodenext --rootDir {{javascript.rootDir}} ./src**/*.mjs",
-    "lint": "npm run lint:tsc",
-    "lint:tsc": "--overwrite-- tsc --allowJs --checkJs --noEmit -t esnext -m esnext --module nodenext --moduleResolution nodenext ./src**/*.mjs"
+    "prepare": "--overwrite-- npm run prepare:typescript",
+    "prepare:typescript": "tsc --allowJs --declaration --emitDeclarationOnly --declarationDir types -t esnext -m esnext --module nodenext --moduleResolution nodenext --rootDir {{javascript.rootDir}} ./src**/*.mjs"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
