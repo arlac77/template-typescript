@@ -5,7 +5,7 @@
     }
   },
   "scripts": {
-    "prepare": "--overwrite-- npm run prepare:typescript",
+    "prepare": "npm run prepare:typescript",
     "prepare:typescript": "tsc --allowJs --declaration --emitDeclarationOnly --declarationDir types -t esnext -m esnext --module nodenext --moduleResolution nodenext --rootDir {{javascript.rootDir}} ./src**/*.mjs",
     "lint": "npm run lint:typescript",
     "lint:typescript": "tsc --allowJs --checkJs --noEmit -t esnext -m esnext --module nodenext --moduleResolution nodenext ./src**/*.mjs",
@@ -65,6 +65,7 @@
       "arlac77/repository-provider-cli-support",
       "arlac77/repository-provider-test-support",
       "arlac77/statetransition-mixin",
+      "arlac77/svelte-common",
       "arlac77/uti",
       "k0nsti/browser-stream-tar",
       "k0nsti/browser-stream-util",
