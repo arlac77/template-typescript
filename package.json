@@ -8,8 +8,8 @@
     "prepare": "--overwrite-- npm run prepare:typescript",
     "prepare:typescript": "tsc --allowJs --declaration --emitDeclarationOnly --declarationDir types -t esnext -m esnext --module nodenext --moduleResolution nodenext --rootDir {{javascript.rootDir}} ./src**/*.mjs",
     "lint:typescript": "tsc --allowJs --checkJs --noEmit -t esnext -m esnext --module nodenext --moduleResolution nodenext ./src**/*.mjs",
-    "lint:tsc" :"--delete--",
-    "lint" :"--delete-- npm run lint:tsc"
+    "lint:typescript" :"--delete--",
+    "lint" :"--delete-- npm run lint:typescript"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
