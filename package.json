@@ -7,7 +7,7 @@
   "scripts": {
     "prepare": "npm run prepare:typescript",
     "prepare:typescript": "--overwrite-- tsc --allowJs --declaration --emitDeclarationOnly --declarationDir types --resolveJsonModule -t esnext -m esnext --module nodenext --moduleResolution nodenext --rootDir {{javascript.rootDir}} ./src**/*.mjs",
-    "lint" :"npm run lint:typescript",
+    "lint": "npm run lint:typescript",
     "lint:typescript": "--overwrite-- tsc --allowJs --checkJs --noEmit --resolveJsonModule -t esnext -m esnext --module nodenext --moduleResolution nodenext ./src**/*.mjs"
   },
   "devDependencies": {
@@ -43,6 +43,7 @@
       "arlac77/content-entry",
       "arlac77/content-entry-filesystem",
       "arlac77/etag-cache-leveldb",
+      "arlac77/expression-expander",
       "arlac77/fetch-link-util",
       "arlac77/gitea-repository-provider",
       "arlac77/github-repository-provider",
