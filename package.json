@@ -56,6 +56,7 @@
       "arlac77/matching-iterator",
       "arlac77/mock-repository-provider",
       "arlac77/multi-path-matcher",
+      "arlac77/npm-package-walker",
       "arlac77/npm-pkgbuild",
       "arlac77/one-time-execution-method",
       "arlac77/pacc",
