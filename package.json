@@ -40,6 +40,7 @@
       "arlac77/aggregate-async-iterator",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
+      "arlac77/config-expander",
       "arlac77/content-entry",
       "arlac77/content-entry-filesystem",
       "arlac77/etag-cache-leveldb",
