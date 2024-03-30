@@ -72,9 +72,9 @@
       "arlac77/uti",
       "k0nsti/browser-stream-tar",
       "k0nsti/browser-stream-util",
-      "konsumation/konsum-db-level",
-      "konsumation/konsum-db-test",
-      "konsumation/konsum-model"
+      "konsumation/db-level",
+      "konsumation/db-test",
+      "konsumation/model"
     ]
   }
 }
