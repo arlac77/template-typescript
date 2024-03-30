@@ -73,6 +73,7 @@
       "k0nsti/browser-stream-tar",
       "k0nsti/browser-stream-util",
       "konsumation/db-level",
+      "konsumation/db-postgresql",
       "konsumation/db-test",
       "konsumation/importer",
       "konsumation/model"
