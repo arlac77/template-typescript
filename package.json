@@ -74,6 +74,7 @@
       "k0nsti/browser-stream-util",
       "konsumation/db-level",
       "konsumation/db-test",
+      "konsumation/importer",
       "konsumation/model"
     ]
   }
