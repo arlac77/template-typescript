@@ -37,6 +37,7 @@
       "Kronos-Integration/endpoint",
       "Kronos-Integration/interceptor",
       "Kronos-Integration/service",
+      "Kronos-Integration/service-http",
       "arlac77/aggregate-async-iterator",
       "arlac77/aggregation-repository-provider",
       "arlac77/bitbucket-repository-provider",
