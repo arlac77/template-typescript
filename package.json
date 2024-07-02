@@ -11,7 +11,7 @@
     "lint:typescript": "--overwrite-- tsc --allowJs --checkJs --noEmit --resolveJsonModule -t esnext -m esnext --module nodenext --moduleResolution nodenext ./src**/*.mjs"
   },
   "devDependencies": {
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.3"
   },
   "template": {
     "inheritFrom": [
