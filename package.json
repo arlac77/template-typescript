@@ -6,12 +6,12 @@
   },
   "scripts": {
     "prepare": "npm run prepare:typescript",
-    "prepare:typescript": "--overwrite-- tsc --allowJs --declaration --emitDeclarationOnly --declarationDir types --resolveJsonModule -t esnext -m esnext --module nodenext --moduleResolution nodenext --rootDir {{javascript.rootDir}} ./src**/*.mjs",
+    "prepare:typescript": "--overwrite-- tsc --allowJs --declaration --emitDeclarationOnly --declarationDir types --resolveJsonModule --target es2024 -m esnext --module nodenext --moduleResolution nodenext --rootDir {{javascript.rootDir}} ./src**/*.mjs",
     "lint": "npm run lint:typescript",
-    "lint:typescript": "--overwrite-- tsc --allowJs --checkJs --noEmit --resolveJsonModule -t esnext -m esnext --module nodenext --moduleResolution nodenext ./src**/*.mjs"
+    "lint:typescript": "--overwrite-- tsc --allowJs --checkJs --noEmit --resolveJsonModule --target es2024 -m esnext --module nodenext --moduleResolution nodenext ./src**/*.mjs"
   },
   "devDependencies": {
-    "typescript": "^5.6.3"
+    "typescript": "^5.7.0-beta"
   },
   "template": {
     "inheritFrom": [
