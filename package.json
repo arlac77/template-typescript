@@ -6,9 +6,9 @@
   },
   "scripts": {
     "prepare": "node --run prepare:typescript",
-    "prepare:typescript": "--overwrite-- tsc --allowJs --declaration --emitDeclarationOnly --declarationDir types --resolveJsonModule --target es2024 {{typescript.libs}}-m esnext --module nodenext --moduleResolution nodenext --rootDir {{javascript.rootDir}} {{javascript.source}}",
+    "prepare:typescript": "--overwrite-- tsc --allowJs --declaration --emitDeclarationOnly --declarationDir types --resolveJsonModule {{typescript.target-option}}{{typescript.lib-option}}-m esnext --module nodenext --moduleResolution nodenext --rootDir {{javascript.rootDir}} {{javascript.source}}",
     "lint": "node --run lint:typescript",
-    "lint:typescript": "--overwrite-- tsc --allowJs --checkJs --noEmit --resolveJsonModule --target es2024 {{typescript.libs}}-m esnext --module nodenext --moduleResolution nodenext {{javascript.source}}"
+    "lint:typescript": "--overwrite-- tsc --allowJs --checkJs --noEmit --resolveJsonModule {{typescript.target-option}}{{typescript.lib-option}}-m esnext --module nodenext --moduleResolution nodenext {{javascript.source}}"
   },
   "devDependencies": {
     "typescript": "^5.7.2"
@@ -16,7 +16,10 @@
   "template": {
     "properties": {
       "typescript" : {
-        "libs" : "--lib es2024 "
+        "lib" : "es2024",
+        "target" : "es2024",
+        "lib-option" : "--lib {{typescript.lib}} ",
+        "target-option" : "--target {{typescript.target}} "
       }
     },
     "inheritFrom": [
