@@ -15,11 +15,11 @@
   },
   "template": {
     "properties": {
-      "typescript" : {
-        "lib" : "es2024",
-        "target" : "es2024",
-        "libs-option" : "--lib {{typescript.lib}} ",
-        "target-option" : "--target {{typescript.target}} "
+      "typescript": {
+        "lib": "es2024",
+        "target": "es2024",
+        "libs-option": "--lib {{typescript.lib}} ",
+        "target-option": "--target {{typescript.target}} "
       }
     },
     "inheritFrom": [
@@ -71,6 +71,7 @@
       "arlac77/npm-pkgbuild",
       "arlac77/one-time-execution-method",
       "arlac77/pacc",
+      "arlac77/pmcf",
       "arlac77/pratt-parser",
       "arlac77/reader-line-iterator",
       "arlac77/remove-sensible-values",
