@@ -15,11 +15,11 @@
   },
   "template": {
     "properties": {
-      "typescript" : {
-        "lib" : "esnext",
-        "target" : "es2024",
-        "libs-option" : "--lib {{typescript.lib}} ",
-        "target-option" : "--target {{typescript.target}} "
+      "typescript": {
+        "lib": "esnext",
+        "target": "es2024",
+        "libs-option": "--lib {{typescript.lib}} ",
+        "target-option": "--target {{typescript.target}} "
       }
     },
     "inheritFrom": [
@@ -59,6 +59,7 @@
       "arlac77/gitea-repository-provider",
       "arlac77/github-repository-provider",
       "arlac77/hinted-tree-merger",
+      "arlac77/ip-utilties",
       "arlac77/iterable-string-interceptor",
       "arlac77/key-value-transformer",
       "arlac77/koa-github-hook-handler",
