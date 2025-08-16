@@ -58,7 +58,6 @@
       "arlac77/fetch-link-util",
       "arlac77/fetch-rate-limit-util",
       "arlac77/gitea-repository-provider",
-      "arlac77/github-repository-provider",
       "arlac77/hinted-tree-merger",
       "arlac77/ip-utilties",
       "arlac77/iterable-string-interceptor",
