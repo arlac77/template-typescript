@@ -11,7 +11,7 @@
     "lint:typescript": "--overwrite-- tsc --allowJs --checkJs --noEmit --resolveJsonModule {{typescript.target-option}}{{typescript.libs-option}}-m esnext {{typescript.module-option}}--moduleResolution nodenext {{javascript.source}}"
   },
   "devDependencies": {
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "template": {
     "properties": {
